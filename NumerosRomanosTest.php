@@ -50,7 +50,7 @@ class NumerosRomanosTest extends WebTestCase
 			'499 should return X' => array(499,'CDXCIX'),
 			'999 should return X' => array(999,'CMXCIX'),
 			'1010 should return X' => array(1010,'MX'),
-			'8999 should return X' => array(8999,'MMMMMMMMCMXCIX'),
+			'8999 should return X' => array(3999,'MMMCMXCIX'),
 			);
 	}
 
